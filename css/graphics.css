@@ -1,0 +1,38 @@
+canvas {
+    width: 100%;
+    height: 10%;
+}
+
+form input {
+    display: inline-block;
+    width: auto;
+}
+form {
+    margin-top: 20px;
+}
+
+body form label.radio-inline {
+    margin: 0 5px 0 5px;
+    padding: 0 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+body form label.radio-inline * {
+    display: inline-block;
+    margin: auto;
+}
+
+
+
+label:hover {
+    background-color: rgba(86, 95, 95, 0.1);
+}
+
+body form label.radio-inline .icon {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    margin: 0 2px 2px 0;
+    border-radius: 4px;
+}

@@ -1,0 +1,99 @@
+.up_nav {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.up_mnu li {
+    display: inline-block;
+    padding: 20px 20px 10px;
+    font-size: 18px;
+
+}
+
+.up_mnu li.active {
+    text-decoration: underline;
+}
+
+.up_mnu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.up_mnu li a:hover {
+    text-decoration: underline;
+}
+
+form * {
+    display: block;
+
+}
+
+form .date {
+    display: inline-block;
+    width: auto;
+}
+
+body form > select, #spending, .button, #earning {
+    width: 260px;
+}
+
+.input_forms .container .row form > .ctg_form  {
+    width: 260px;
+}
+
+form p {
+    margin-bottom: 0;
+}
+
+form .button {
+    margin-top: 10px;
+}
+
+form input {
+    width: 127px;
+}
+
+table.table.table-striped.costs {
+    width: 200px;
+}
+
+#spending_view, #earning_view {
+    display: none;
+}
+
+.global_info {
+    border-bottom: 1px gray solid;
+}
+
+.spended {
+    border-right: 1px gray solid;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.spended tbody, .spended_total {
+    color: red;
+}
+
+.earned tbody, .earned_total {
+    color: green;
+}
+
+.statistic_date * {
+    display: inline-block;
+    width: auto;
+}
+
+
+
+
+
+
+
+
